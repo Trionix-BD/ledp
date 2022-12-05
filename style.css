@@ -1,0 +1,149 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+background-color: white;
+}
+.con1{
+    border-bottom: 2px solid rgba(0, 0, 0, .2);
+}
+header{
+    margin-top: 0px;
+    background-color: white;
+    height: 82px;
+    position: fixed;
+    overflow: hidden;
+    width: 100%;
+    margin-right: 0;
+    box-shadow:rgba(0, 0, 0, .2) 0 0 0 3px;
+}
+nav{
+    font-family: "Open Sans", sans-serif;
+}
+.nav-item{
+    margin:0 9px;
+}
+
+.navbar ul li a{
+    color:rgba(0, 0, 0, .7);
+    transition: .5s;
+    font-weight: bold;
+    font-family: "Open Sans", sans-serif;
+}
+.navbar ul li a:hover{
+    text-decoration: underline green 2px;
+    transition:.5s;
+}
+.con2{
+    height: 82px;
+    background-color: wheat;
+    background-attachment: fixed;
+}
+.rol1{
+    border-bottom: 2px solid rgba(0, 0, 0, .3);
+    background-attachment: fixed;
+}
+
+
+/* header end */
+.banner{
+    background-image: url("images/banner.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 300vh;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+}
+.ss{
+    text-align: left;
+    margin-top: 180px;
+}
+.ss h1{
+    font-size: 60px;
+}
+.my{
+    margin-top: 120px;
+}
+.kk h1{
+    font-size: 34px;
+    font-weight: bold;
+    color: #334052;
+}
+.kk h4{
+    font-size: 18px;
+    font-style: italic;
+}
+.kk h5{
+    font-size: 18px;
+    margin-top: 5px;
+}
+/* 1st section finished */
+
+.bb h2{
+    font-size: 45px;
+    font-weight: bolder;
+    color: white;
+}
+.bb p{
+    color: white; 
+}
+.con-for-count{
+    margin-top:100px ;
+    margin-bottom:100px ;
+    background: url(images/banner.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+    padding: 70px;
+}
+
+/* 2nd and 3rd section finished */
+.cbb{
+    transition: .4s;
+    margin: 5px;
+}
+.cbb:hover{
+    box-shadow: 2px 2px 2px 0px rgba(0, 0, 0, .3);
+    transition: .4s;
+}
+
+/* cards start */
+
+.faq{
+    background-image: url(images/banner.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+/* faq finished */
+
+.map-container-2{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+    }
+    .map-container-2 iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+    }
+
+    /* main body fiinished */
+
+    /* footer start */
+    .foot{
+        background-image: url(images/banner.jpg);
+        background-size: cover;
+        height: 80px;
+        width: 100%;
+        padding-top :17px; ;
+        margin-bottom: 0;
+    }
